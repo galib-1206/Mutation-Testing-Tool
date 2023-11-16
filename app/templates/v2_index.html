@@ -1,0 +1,19 @@
+{% extends "v2_base.html" %}
+{% set title='Projects' %}
+
+{% block breadcrumb %}
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active">Projects</li>
+    </ol>
+{% endblock %}
+
+{% block content %}
+    <ul class="fa-ul">
+        <li><i class="fa-li fa fa-cubes" aria-hidden="true"></i>
+            <a href="{{ url_for('route_v2_projects') }}">Projects</a>
+        </li>
+        <li><i class="fa-li fa fa-list-ol" aria-hidden="true"></i>
+            <a href="{{ url_for('route_v2_queue') }}">Queue</a>
+        </li>
+    </ul>
+{% endblock %}
