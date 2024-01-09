@@ -1,4 +1,4 @@
-
+**Here's the following instructions:**
 ```bash
 pip install -r requirements.txt
 python3 db_create.py
